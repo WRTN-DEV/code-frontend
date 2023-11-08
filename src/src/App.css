@@ -1,0 +1,75 @@
+header {
+  background-color: #bebebe;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+body {
+  background-color: #2c2c2c; /* 원하는 배경색으로 변경 */
+  margin: 0; /* 기본 마진 제거 */
+  font-family: Arial, sans-serif; /* 원하는 글꼴로 변경 */
+}
+/* Navigation 스타일 */
+nav {
+  background-color: #666666;
+  color: white;
+  padding: 0.5rem;
+}
+
+/* 글쓰기 및 업데이트 폼 스타일 */
+form {
+  background-color: #f5f5f5;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+a {
+  color: rgb(255, 255, 255); /* 원하는 색상으로 변경 */
+  text-decoration: none; /* 밑줄 제거 */
+}
+
+/* 페이지 레이아웃 스타일 */
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+/* 애니메이션 스타일 */
+/* 예: hover 시 버튼 색상 변경 */
+button:hover {
+  background-color: #ff5722;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.content {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 20px;
+}
+
+.content h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.content p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+ul {
+  list-style: none; /* 기본 목록 스타일 제거 */
+  padding: 0; /* 기본 패딩 제거 */
+  display: flex; /* 요소들을 가로로 정렬하기 위해 Flexbox 사용 */
+  justify-content: space-between; /* 요소들을 간격을 두고 가로로 분포 */
+}
+
+li {
+  margin: 0 10px; /* 좌우 10px의 마진을 추가하여 빈칸 2칸씩 둠 */
+}
